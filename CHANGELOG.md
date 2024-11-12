@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.5.0](https://github.com/nico-i/eslint-config/compare/v2.4.1...v2.5.0) (2024-11-12)
+
+
+### Features
+
+* new publish script ([0e77559](https://github.com/nico-i/eslint-config/commit/0e77559308d2e3d2c96d93539262b7d34c98cdef))
+
+
+### Bug Fixes
+
+* added .npmrc for auth ([4d2f6a8](https://github.com/nico-i/eslint-config/commit/4d2f6a8bddd1209b7d01c30ba43ccc8e0a2ee6eb))
+* create .npmrc to configure npm auth ([daec2ed](https://github.com/nico-i/eslint-config/commit/daec2ed8ea1eed00f577867407e2fa86df35940f))
+* fixed CI env ([1330b27](https://github.com/nico-i/eslint-config/commit/1330b27130c4e258d48787b41fbdf0f20ea663ac))
+* pkg files config ([7eb2700](https://github.com/nico-i/eslint-config/commit/7eb2700206f93aeff73e07eba13ae21edf86ee3f))
+* switched to pkg json script for publish ([3c77b25](https://github.com/nico-i/eslint-config/commit/3c77b257e805e6ec5333a74dc27e1e18bdadfe7a))
+* used env vars ([a263d16](https://github.com/nico-i/eslint-config/commit/a263d16bbddcb0a75b1358521d8d7ca02022be1f))
+
 ## 2.4.1 (2024-11-12)
 
 
