@@ -25,6 +25,7 @@
     "typescript-eslint": "^8.14.0"
   },
   "scripts": {
+    "publish": "HUSKY=0 bun publish",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "format": "prettier --write .",
