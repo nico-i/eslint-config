@@ -31,7 +31,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "prepare": "husky && echo \"#!/bin/sh\nbunx --no -- commitlint --edit \\$1\" > .husky/commit-msg"
   },
   "gitHead": "46980dc302c06369e01f693167f9792ea2a105c2",
   "devDependencies": {
