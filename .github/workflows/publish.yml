@@ -17,4 +17,4 @@ jobs:
       - uses: oven-sh/setup-bun@v2
       - run: bun i
       - run: bun test
-      - run: bun publish
+      - run: bun run publish
