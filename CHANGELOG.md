@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.7.0](https://github.com/nico-i/eslint-config/compare/v2.6.0...v2.7.0) (2024-11-12)
+
+
+### Features
+
+* added main field in pkg json ([dd72489](https://github.com/nico-i/eslint-config/commit/dd724897fcea69df349220cf022bfbfa942885b0))
+
 ## [2.6.0](https://github.com/nico-i/eslint-config/compare/v2.5.0...v2.6.0) (2024-11-12)
 
 
