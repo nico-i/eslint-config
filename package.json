@@ -11,14 +11,12 @@
     "eslintconfig",
     "eslint"
   ],
-  "main": "index.js",
   "files": [
-    "index.js"
+    "index.mjs"
   ],
   "author": "Nico Ismaili",
   "license": "MIT",
   "peerDependencies": {
-    "typescript": "^5.6.3",
     "@eslint/js": "^9.14.0",
     "eslint": "^9.14.0",
     "@types/eslint__js": "^8.42.3",
@@ -38,6 +36,7 @@
     "@nico-i/prettier-config": "^1.0.0",
     "@types/bun": "latest",
     "husky": "^9.1.6",
-    "prettier": "3.3.3"
+    "prettier": "3.3.3",
+    "typescript": "^5.6.3"
   }
 }
