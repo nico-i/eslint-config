@@ -1,5 +1,17 @@
 # Changelog
 
+## 2.4.1 (2024-11-12)
+
+
+### Features
+
+* moved pkg out of monorepo + minor improvements ([16ebb5d](https://github.com/nico-i/eslint-config/commit/16ebb5d6ac11d55f8693504ceafd5253cd75ec08))
+
+
+### Miscellaneous Chores
+
+* release 2.4.1 ([1794c06](https://github.com/nico-i/eslint-config/commit/1794c067e36a99e20d36e4c601b7931816e368b9))
+
 ## [2.4.0](https://github.com/nico-i/nico-i/compare/eslint-config-v2.3.0...eslint-config-v2.4.0) (2024-08-05)
 
 ### Features
