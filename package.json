@@ -2,7 +2,10 @@
   "name": "@nico-i/eslint-config",
   "version": "2.6.0",
   "description": "My ESLint config.",
-  "repository": "https://github.com/nico-i/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nico-i/eslint-config.git"
+  },
   "private": false,
   "publishConfig": {
     "access": "public"
