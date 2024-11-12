@@ -11,8 +11,9 @@
     "eslintconfig",
     "eslint"
   ],
+  "type": "module",
   "files": [
-    "index.mjs"
+    "index.js"
   ],
   "author": "Nico Ismaili",
   "license": "MIT",

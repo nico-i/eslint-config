@@ -1,5 +1,5 @@
 import { ESLint } from 'eslint';
-import config from './index.mjs';
+import config from './index.js';
 import { expect, test, describe } from 'bun:test';
 
 describe(`ESLint Configuration`, () => {
