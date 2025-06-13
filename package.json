@@ -6,42 +6,46 @@
     "type": "git",
     "url": "git+https://github.com/nico-i/eslint-config.git"
   },
-  "private": false,
+  "private": true,
   "publishConfig": {
     "access": "public"
   },
-  "main": "index.js",
+  "files": [
+    "out",
+    "README.md",
+    "LICENSE"
+  ],
   "keywords": [
     "eslintconfig",
     "eslint"
   ],
   "type": "module",
-  "files": [
-    "index.js"
-  ],
   "author": "Nico Ismaili",
   "license": "MIT",
   "peerDependencies": {
-    "@eslint/js": "^9.14.0",
     "eslint": "^9.14.0",
-    "@types/eslint__js": "^8.42.3",
-    "typescript-eslint": "^8.14.0"
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2"
   },
   "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
-    "format": "prettier --write .",
-    "format:check": "prettier --check .",
-    "prepare": "husky && echo \"#!/bin/sh\nbunx --no -- commitlint --edit \\$1\" > .husky/commit-msg"
+    "build": "cd ./src && bun build ./index.ts --outdir ../out --minify && bunx tsc",
+    "lint": "eslint . --ext .ts && prettier . --check",
+    "lint:fix": "eslint . --ext .ts --fix && prettier . --write",
+    "prepare": "husky || true"
   },
-  "gitHead": "46980dc302c06369e01f693167f9792ea2a105c2",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0"
+  },
   "devDependencies": {
+    "@types/eslint-plugin-jsx-a11y": "^6.10.0",
+    "@types/eslint__js": "^8.42.3",
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
-    "commitlint-plugin-spend": "^1.0.1",
     "@nico-i/prettier-config": "^1.0.0",
     "@types/bun": "latest",
+    "commitlint-plugin-spend": "^1.0.1",
     "husky": "^9.1.6",
+    "lint-staged": "16.1.0",
     "prettier": "3.3.3",
     "typescript": "^5.6.3"
   },
