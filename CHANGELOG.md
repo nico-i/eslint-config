@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.8.0](https://github.com/nico-i/eslint-config/compare/v2.7.0...v2.8.0) (2025-06-13)
+
+
+### Features
+
+* added tslint back + some stylistic config ([2278da4](https://github.com/nico-i/eslint-config/commit/2278da4ed2ca624ac55be579d293b3b2de08d026))
+* added type declarations + airbnb base ([55549ec](https://github.com/nico-i/eslint-config/commit/55549ecda5805338d551cb3851d8a6c399efbf66))
+
 ## [2.7.0](https://github.com/nico-i/eslint-config/compare/v2.6.0...v2.7.0) (2024-11-12)
 
 ### Features
