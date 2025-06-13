@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.10.0](https://github.com/nico-i/eslint-config/compare/v2.9.0...v2.10.0) (2025-06-13)
+
+
+### Features
+
+* fixed entry ([099d447](https://github.com/nico-i/eslint-config/commit/099d4477ce5832b4b7b6cbd283700d08803ae5e6))
+
 ## [2.9.0](https://github.com/nico-i/eslint-config/compare/v2.8.0...v2.9.0) (2025-06-13)
 
 
