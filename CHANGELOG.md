@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.9.0](https://github.com/nico-i/eslint-config/compare/v2.8.0...v2.9.0) (2025-06-13)
+
+
+### Features
+
+* made pkg public ([4ee6e7f](https://github.com/nico-i/eslint-config/commit/4ee6e7feab86a5271039b4e4bad4090d14800546))
+
 ## [2.8.0](https://github.com/nico-i/eslint-config/compare/v2.7.0...v2.8.0) (2025-06-13)
 
 
